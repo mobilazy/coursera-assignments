@@ -1,0 +1,81 @@
+* {
+  font-family: "Comic Sans MS", sans-serif;  
+}
+#header-nav {
+  background-color: #BDC2BD;
+  border-radius: 0;
+}
+.container {
+  height: 80px;
+}
+
+.container h2 {
+  color: black;
+  margin: 20px 0 20px 0;
+  vertical-align: center;
+}
+
+.navbar-brand {
+  padding-top: 15px;
+  padding-bottom: 25px;
+  
+}
+
+ .navbar-brand h1{ /* Restaurant name */ 
+  color: black;
+  font-size: 1.75em;
+  font-weight: bold;
+  margin-top: 5px;
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+
+#nav-list {
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: 1.8;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+}
+
+#nav-list a {
+  color: black;
+  background-color: white;
+  margin: 0 0 0 0;
+}
+#nav-list a:hover {
+  background: #E7E7E7;
+} 
+#nav-list li {
+  border: 1px solid black;
+  height: 50px;
+  background-color: white;  
+}
+
+#nav-list a > h3 {
+  margin: 0 auto 0 auto;
+  vertical-align: center;
+}
+.navbar-default button.navbar-toggle {
+  border: 1px solid black;
+  background-color: #BDC2BD;
+  clear: both;
+  margin-top: -30px;
+}
+
+.navbar-default button.navbar-toggle:active, .navbar-default .icon-bar:active{
+  border: 1px solid white;
+}
+.navbar-default .icon-bar {
+  border: 2px solid black;
+}
+
+#menu1, #menu2, #menu3 {
+  color: black;
+  background-color: #BDC2BD;
+  margin-bottom: 30px;
+  padding: 10px 0 0 20px;
+  height: auto;
+} 
